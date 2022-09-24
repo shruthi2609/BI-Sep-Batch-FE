@@ -1,0 +1,2 @@
+ git config --global user.name "you user name"
+  git config --global user.password "you user password"

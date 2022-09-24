@@ -1,0 +1,44 @@
+git and github
+
+git  - local repo
+
+github - remote repo
+
+
+git commands:
+
+->what is JS?
+
+programming lang used in buliding web app 
+
+->advantages
+
+compatability with different browsers
+easy to learn
+faster to interpret
+dynamic 
+
+vanilla JS
+
+
+chrome:
+v8 engine
+
+
+compiler and interpreter:
+
+
+python , c , java , JS - High level lang
+
+low level lang , 0 1
+
+
+
+
+
+
+
+ 
+
+
+
