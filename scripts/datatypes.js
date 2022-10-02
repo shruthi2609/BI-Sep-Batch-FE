@@ -49,6 +49,14 @@ console.log(student_information.marks[0])
 let place="Delhi"
 console.log(place[3])*/
 
+let a //declaration
+a=10 //assignment or definition
+let b
+let c=null
+console.log(b)
+console.log(c)
+
+
 
 
 

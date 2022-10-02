@@ -52,8 +52,8 @@ rules for naming an identifier
  5.spaces are not allowed for identifiers
  */
 
- let first_name="Jayasruthi"
- console.log(first_name)
+ let First_name="Jayasruthi"
+ console.log(First_name)
 
  let a=10.5
 
