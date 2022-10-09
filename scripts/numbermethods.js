@@ -11,6 +11,9 @@ console.log(res2)
 console.log(res4)
 let eg=+"30"
 console.log(eg)*/
+let m1="20"
+let m2=20
+console.log(Number(m1)+m2)
 
 let a=10
 let b=0
