@@ -6,7 +6,9 @@ console.log(fname[0])
 //indexOf()
 let msg="Welcome to Javascript Javascript Javascript"
 console.log(msg.indexOf("Javascript"))//first occurence
+
 console.log(msg.indexOf("Javascript",12))
+
 console.log(msg.indexOf("Javascript",msg.indexOf("Javascript")+1))//second occurence
 let third=msg.indexOf("Javascript",msg.indexOf("Javascript")+1)+1
 console.log(msg.indexOf("Javascript",third))
@@ -24,6 +26,7 @@ if(ind===-1){
 else{
     alert(`the word is starting from index : ${ind}`)
 }*/
+
 let msg="Welcome to Javascript Javascript Javascript"
 //slice
 console.log(msg.slice(11))

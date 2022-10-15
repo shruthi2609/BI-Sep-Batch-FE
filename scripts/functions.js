@@ -39,6 +39,7 @@ function sumOfNumbers(a,b){
     let c=a+b
     let d=a-b
     //console.log(c)
+    return c
     //return 30  =>result will be 30
     //return c,d => result will be d
     return [c,d] 
