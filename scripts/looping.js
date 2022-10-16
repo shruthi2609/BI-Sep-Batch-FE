@@ -3,7 +3,7 @@
 // execute some process continously from start to end
 /**
  * for loop
- * for in ->strings
+ * for in ->objects
  * for of ->arrays
  * while
  * do while

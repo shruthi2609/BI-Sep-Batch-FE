@@ -87,7 +87,7 @@ let result=fruits.filter(
     (item)=>item.length>5&&item==="orange" 
 )
 console.log(result)
-*/
+
 let result1=fruits.filter(
     (item)=>item.length>5
 )
@@ -100,6 +100,102 @@ console.log(result)
 
 
 //map , some , every ,reduce
+let inputs=[1,2,3,4]
+// [2,4,6,8]
+let output=[]
+for(i=0;i<inputs.length;i++){
+    let ele=inputs[i]*2
+    output.push(ele)
+}
+console.log(output)
+let inputs=[11,20,30,45]*/
+
+/*let output=inputs.map(
+    (item)=>{
+        return item*2
+    }
+)
+let output=inputs.map((item)=>item*2)
+console.log(output)
+let students=[
+    {
+        fname:"john",
+        cgpa:9.0,
+        city:"Delhi",
+        placed:"XYZ"
+    },
+    {
+        fname:"peter",
+        cgpa:8.0,
+        city:"Mumbai",
+        placed:"ABC"
+    },
+    {
+        fname:"henry",
+        cgpa:7.8,
+        city:"Delhi",
+        placed:"ABC"
+    },
+]
+// list all the students placed in ABC 
+//find the first person who is from delhi
+//print the student details
+let placedABC=students.filter((student)=>student.placed==="ABC")
+console.log(placedABC)
+
+let delhi=students.find((student)=>student.city==="Delhi")
+console.log(delhi)
+
+students.forEach((item)=>console.log(item))
+
+let inputs=[10,20,30,42]
+let output=inputs.every((ele)=>ele%2===0)
+console.log(output)
+let students=[
+    {
+        fname:"john",
+        cgpa:9.0,
+        city:"Delhi",
+        placed:"XYZ"
+    },
+    {
+        fname:"peter",
+        cgpa:8.0,
+        city:"Mumbai",
+        placed:"ABC"
+    },
+    {
+        fname:"henry",
+        cgpa:7.0,
+        city:"Delhi",
+        placed:"ABC"
+    },
+]
+let criteria=students.every((ele)=>ele.cgpa>=7.5)
+console.log("cgpa",criteria)
+let inputs=[10,20,30,42]
+let sum=0
+for(let i=0;i<inputs.length;i++){
+    sum=sum+inputs[i]
+}
+console.log(sum)
+
+let sum=inputs.reduce((prev,current)=>{
+    console.log(prev,current)
+    return prev+current //60
+})
+let inputs=[10,20,30,42]
+let sumofArray=inputs.reduce((prev,current,third,fourth)=>{
+    console.log(third)
+    console.log(fourth)
+}
+)*/
+
+
+
+
+
+
 
 
 
