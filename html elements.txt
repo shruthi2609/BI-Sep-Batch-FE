@@ -1,0 +1,59 @@
+HTML - hypertext markup lang
+
+
+website -> collection of web pages
+
+web pages-> it contains html elements / tags
+
+html -> structure of web page /document
+
+css -> X 
+
+JS- static
+
+
+
+html
+-head
+ -meta
+ -title
+ -script
+ -style
+ -base
+-body
+ -headings
+ -para
+ -lists
+ > ordered (ol,li , type=a|A|i|I start="count")
+ > unordered (ul,li, type=disc|square|circle)
+ -tables
+ -image
+ -links
+ -audio
+ -video
+ -iframe
+ -forms
+ -semantic (header, footer , span, div)
+
+formatting tags:
+ -del
+ -strong
+ -i
+ -b
+ -small
+ sup
+ sub
+ br
+ hr
+
+block level:
+headings
+para
+
+
+Inline:
+links (a)
+img
+
+please come back by 8.20pm
+
