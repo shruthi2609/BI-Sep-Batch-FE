@@ -28,4 +28,9 @@ basic selectors:
 5.universal selector
 
 
+task:
+
+create different elements like p, table tags and apply selectors and color properties
+
+
 
