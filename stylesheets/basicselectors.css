@@ -1,4 +1,27 @@
-h1{
+*{
+    background-color: black;
+}
+h3{
     color:pink;
     background-color: darkorange;
+}
+#fset{
+  /* color:darkgreen;
+    background-color: aqua;*/
+    color:darkgreen; 
+}
+
+#sset{
+    background-color: blueviolet;
+}
+.fclass{
+
+background-color: black;
+}
+.sclass{
+    color:red;
+  
+}
+#one,.two,#four{
+    color:darkmagenta
 }

@@ -1,0 +1,31 @@
+Basics of CSS:
+
+Cascading style sheet
+
+postioning elements
+layouts - grids , flex
+device compatability - media queries.
+
+adding CSS:
+1.inline styling - element style="color:red;background-color:blue"
+2.internal CSS
+<style>
+h1{
+color:red;
+background-color:blue;
+}
+</style>
+3.external css
+<link rel="stylesheet" href="filename.css">
+
+
+
+basic selectors:
+1.tag selector / element selector
+2.id selector
+3.class selector
+4.group selector
+5.universal selector
+
+
+
