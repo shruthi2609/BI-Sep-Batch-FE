@@ -1,0 +1,13 @@
+
+h1{
+    display:inline-block;
+    background-color:rgba(3, 43, 1,0.3);
+    width:55%;
+    height:50px;
+}
+img{
+    display: block;
+    width:45%;
+    opacity: 0.9;
+    /* range is 0-1*/
+}

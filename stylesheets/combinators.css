@@ -1,0 +1,16 @@
+/* child selector - >
+div>p{
+   background-color: aqua; 
+}*/
+/*descendant selector - space*/
+div h1{
+    background-color: chartreuse;
+}
+/* adjacent sibling selector - +
+p+p{
+    background-color: cornflowerblue;
+}*/
+/*general sibling - ~ */
+p~p{
+    background-color: cornflowerblue;
+}
