@@ -1,0 +1,22 @@
+img[src="./Sample Pictures/Chrysanthemum.jpg"]{
+    width: 45%;
+    height: 25%;
+}
+/*space seperated values*/
+[class~="top"]{
+background-color: aqua;
+}
+[class|="bottom"]{
+    background-color:red;
+}
+[class^="new"]
+{
+    background-color: chartreuse;
+}
+[class$="new"]{
+    background-color: blue;
+}
+[class*="pa"]{
+    border: 2px solid red;
+}
+
