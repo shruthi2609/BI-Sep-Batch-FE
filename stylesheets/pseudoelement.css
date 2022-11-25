@@ -1,0 +1,7 @@
+h1::before{
+    content: "pre-pended";
+}
+/* after first-letter first-line*/
+p::selection{
+   background-color: aqua;
+}
