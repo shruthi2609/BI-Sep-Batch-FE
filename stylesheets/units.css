@@ -1,9 +1,17 @@
-p{
+/*p{
     font-size:2em;
 }
-html{
+/*html{
     font-size:16px;
 }
 div{
     font-size: 40px;
+}*/
+.new{
+    font-size:1vw;
+}
+div{
+    width:60vw;
+   height:400px;
+    background-color: aqua;
 }
