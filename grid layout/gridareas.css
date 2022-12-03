@@ -1,0 +1,33 @@
+.parent{
+    display: grid;
+    grid-template-areas: 
+    "c1 c1 c1"
+    "c2 c3 c4"
+    "c5 c5 c5";
+    grid-template-columns: 20vw 30vw 50vw;
+    grid-template-rows: 20vh 20vh 20vh;
+    gap:10px;
+    
+
+}
+.c1{
+    background-color: aqua;
+    grid-area: c1;
+}
+.c2{
+    background-color: peachpuff;
+    grid-area: c2;
+}
+.c3{
+    background-color: chocolate;
+    grid-area: c3;
+}
+.c4{
+    background-color:grey;
+    grid-area: c4;
+  
+}
+.c5{
+    background-color: chocolate;
+    grid-area: c5;
+}

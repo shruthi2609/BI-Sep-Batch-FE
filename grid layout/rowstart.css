@@ -1,0 +1,37 @@
+.parent{
+    height:100vh;
+    display: grid;
+   /* grid-template-columns:16% 16% 16% 16% 16% 16%;
+   grid-template-columns:1fr 1fr 1fr;
+   grid-template-columns:  20% 30px repeat(3,1fr);   */
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 5vh 65vh 30vh;
+   /*grid-column-gap: 15px;
+   grid-row-gap: 15px;
+   gap: 15px 50px;*/
+
+}
+.c1{
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.c2{
+    background-color: peachpuff;
+}
+.c3{
+    background-color: chocolate;
+}
+.c6{
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.c4{
+    background-color: peachpuff;
+}
+.c5{
+    background-color: chocolate;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
