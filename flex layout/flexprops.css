@@ -12,38 +12,44 @@
     background-color: aqua;
     height:80px;
     order:3;
-   flex-basis: 435px;
+   flex-basis: 33.3vw;
 }
 .c2{
     background-color: peachpuff;
     height:80px;
     order:2;
   /* flex-basis: 435px;*/
-   flex:0 0 435px;
+   flex:0 0 33.3vw;
   /* flex-grow: 4;
    flex-shrink: 2;*/
 }
 .c3{
     background-color: chocolate;
     order:1;
-   flex-basis: 435px;
+   flex-basis:33.3vw;
    /* flex-grow: 3;*/
 }
 .c6{
     background-color: aqua;
     height:80px;
     order:4;
-    flex-basis: 435px;
+    flex-basis: 33.3vw;
 }
 .c4{
     background-color: peachpuff;
     height:80px;
     order:5;
-    flex-basis: 435px;
+    flex-basis: 33.3vw;
 }
 .c5{
     background-color: chocolate;
     height:80px;
     order:6;
-    flex-basis: 435px;
+    flex-basis: 33.3vw;
+}
+@media screen and (min-width:600px) and (max-width:900px) {
+    .parent{
+        display: block;
+    }
+    
 }

@@ -1,0 +1,17 @@
+.navbar{
+    display: flex;
+    background-color: orange;
+    color:beige;
+    padding:1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    justify-content: space-between;
+}
+ul{
+    list-style-type: none;
+    display:flex;
+   
+}
+li{
+    margin:1em;
+}
+
