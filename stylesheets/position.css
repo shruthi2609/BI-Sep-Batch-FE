@@ -1,5 +1,6 @@
 /* static and relative*/
-/*html{
+/*
+html{
     background-color: chartreuse;
 }
 .parent{
@@ -58,7 +59,7 @@ html{
     background-color: grey;
     padding:50px;
 }*/
-/*fixed */
+/*fixed 
 html{
     background-color: chartreuse;
 }
@@ -77,6 +78,7 @@ html{
     background-color: grey;
     padding:50px;
 }
+*/
 .overflw{
     background-color: cornflowerblue;
     max-width: 250px;

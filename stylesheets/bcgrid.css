@@ -1,0 +1,44 @@
+.parent{
+    background-color:red;
+    height:100vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
+    gap:10px 10px;
+}
+.c1{
+    background-color: aqua;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.c2{
+    background-color: peachpuff;
+}
+.c3{
+    background-color: chocolate;
+}
+.c6{
+    background-color: aqua;
+    
+}
+.c4{
+    background-color: peachpuff;
+}
+.c5{
+    background-color: chocolate;
+    
+}
+.c8{
+    background-color: wheat;
+    grid-column-start: 5;
+    grid-column-end: 7;
+}
+.c7{
+    background-color: rosybrown;
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+@media screen and (min-width:600px) and (max-width:950px){
+    .parent{
+       display: block; 
+    }
+}

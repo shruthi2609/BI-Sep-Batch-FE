@@ -1,0 +1,33 @@
+.parent{
+    background-color:red;
+    height:100vh;
+    display: flex;
+    flex-direction:row-reverse;
+   /* justify-content: space-around;*/
+    flex-wrap: wrap;
+}
+.c1{
+    background-color: aqua;
+    flex:0 0 25vw;
+}
+.c2{
+    background-color: peachpuff; 
+    flex-basis:70vw;
+}
+.c3{
+    background-color: chocolate;
+    flex-basis:33.3vw;
+}
+.c4{
+    background-color: peachpuff;
+    flex-basis:33.3vw;
+}
+.c5{
+    background-color: chocolate;
+    flex-basis:33.3vw;
+}
+.c6{
+    background-color: aqua;
+    flex-basis:33.3vw;
+    
+}

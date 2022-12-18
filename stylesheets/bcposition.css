@@ -1,0 +1,73 @@
+/*static , relative , abs
+html{
+    background-color: aqua;
+}
+.parent{
+    background-color: brown;
+    position: relative;
+}
+.c1{
+    padding: 30px;
+    position: absolute;
+    left:40px;
+    top:20px;
+    background-color: beige;
+}
+.main,.c2{
+    padding:30px;
+}
+
+/*
+html{
+    background-color: aqua;
+    height:100vh;
+}
+.parent{
+    background-color: brown;
+    height:120vh;
+    position: relative;
+   
+}
+.c1{
+    padding: 30px;
+    position: fixed;
+    top:20px;
+    background-color: beige;
+}
+.main{
+    padding:30px;
+    background-color: blue;
+}
+
+.c2{
+    padding: 30px;
+    background-color: cadetblue;
+}
+
+html{
+    background-color: aqua;
+    height:100vh;
+}
+.parent{
+    background-color: brown;
+    height:120vh;
+   
+}
+.c1{
+    padding: 30px;
+    position: sticky;
+    top:50px;
+    background-color: beige;
+}
+.main{
+    padding:30px;
+    background-color: blue;
+}
+
+.c2{
+    padding: 30px;
+    background-color: cadetblue;
+}
+*/
+
+
