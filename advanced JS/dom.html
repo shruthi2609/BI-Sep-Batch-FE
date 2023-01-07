@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       /* function changetxt(){
+        let h2obj=    document.getElementById("cm")
+        h2obj.innerHTML="<h6> Hello Js !</h6>"
+        }*/
+        function changetxt(){
+          /* let paraelements=  document.getElementsByClassName("p1")
+          for(let i=0;i<paraelements.length;i++){
+          if(i==1){
+            paraelements[i].innerHTML="changed the second elements text"
+           }
+           paraelements[i].innerHTML="changed the second elements text"
+          }
+          let paraelements=  document.getElementsByTagName("p")
+          console.log(paraelements)*/
+          let elements=document.querySelector(".p1")
+          console.log(elements)
+           let allelements=document.querySelectorAll(".p1")
+          console.log(allelements)
+          let sibiling=document.querySelectorAll(".p1+.p1")
+          console.log(sibiling)
+        }
+
+    </script>
+</head>
+<body>
+    <h2 id="cm">Hello HTML !</h2>
+    <h2 id="cm">Hello !</h2>
+    <p class="p1">html css js</p>
+    <p class="p1">this is demo</p>
+    <h3 class="p1">heading with p1</h3>
+    <button onclick="changetxt()">change text</button>
+</body>
+</html>

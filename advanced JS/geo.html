@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function getlocation(){
+        if(navigator.geolocation){
+           // navigator.geolocation.getCurrentPosition(showPosition)
+           navigator.geolocation.watchPosition(showPosition)
+        }
+        else{
+            console.log("the browser is not supported")
+        }
+        }
+        function showPosition(position){
+            console.log(position.coords.latitude,position.coords.longitude)
+        }
+        console.log("width",screen.availHeight)
+    </script>
+</head>
+<body>
+    <h2>click here to get the co ordinates</h2>
+    <button onclick="getlocation()">get location</button>
+</body>
+</html>

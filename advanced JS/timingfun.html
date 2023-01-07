@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+      /*  let to=setTimeout(()=>{
+            console.log("hey there!")
+        },0000)
+        clearTimeout(to)*/
+        let si=setInterval(()=>{
+            console.log("hi")
+        },4000)
+        function stopinterval(){
+            clearInterval(si)
+        }
+    </script>
+</head>
+<body>
+    <button onclick="stopinterval()">stop</button>
+</body>
+</html>
