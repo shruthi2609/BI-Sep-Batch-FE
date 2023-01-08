@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+    <h1 id="heading">this is a heading</h1>
+    <button id="demo">create a p tag</button>
+    <button id="demo2">remove h1 tag</button>
+    </div>
+    <script>
+        function addPara(){
+            //1.createElement
+            let paraElement=document.createElement("p")
+            paraElement.innerText="this is  a new para"
+            paraElement.style.color="red"
+            console.log(paraElement)
+          let parentElement=document.getElementById("container")
+            console.log(parentElement)
+            parentElement.appendChild(paraElement)
+        }
+        function removeHeading(){
+            let parentElement=document.getElementById("container")
+            let childElement=document.getElementById("heading")
+            parentElement.removeChild(childElement)
+        }
+        let buttonElement=document.getElementById("demo")
+        buttonElement.addEventListener("click",addPara)
+        let buttonElement2=document.getElementById("demo2")
+        buttonElement2.addEventListener("click",removeHeading)
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+</head>
+<body>
+    <h1 id="heading" onclick="hovereg()">forms</h1>
+<form name="myForm" onsubmit="return validateForm()" method="post" >
+  Name: <input type="text" name="fname">
+  <p id="fnameval"></p>
+  Role: <input type="text" name="role">
+  <p id="roleval"></p>
+  <input type="submit" value="Submit">
+</form>
+<button id="demo">ok</button>
+<script>
+    function validateForm(){
+     let fname=document.forms["myForm"]["fname"].value
+     let role=document.forms["myForm"]["role"].value
+   if(fname===""){
+    let element=document.getElementById("fnameval")
+    element.style.color="red"
+    element.style.backgroundColor="yellow"
+    element.innerText="please enter some value"
+   }
+     return false
+    }
+    function hovereg(){
+        let element=document.getElementById("heading")
+    element.style.color="red"
+    element.style.backgroundColor="yellow"
+    }
+   let demoBubbling=document.getElementById("demo")
+   demoBubbling.addEventListener("click",clickevnt)
+    function clickevnt(){
+        console.log("click")
+    }
+
+</script>
+</body>
+</html>
